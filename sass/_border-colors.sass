@@ -1,0 +1,9 @@
+/* For OOCSS purposes */
+
+.border
+	border-width: 1px
+	border-style: solid
+
+@each $color, $value in ("white", $white), ("gray", $gray), ("black", $black), ("yellow", $yellow), ("blue", $blue), ("red", $red), ("green", $green), ("orange",$orange), ("purple", $purple), ("brown", $brown), ("pink", $pink)
+	.border-#{$color}
+		border-color: #{$value}
