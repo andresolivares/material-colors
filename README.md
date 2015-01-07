@@ -1,5 +1,4 @@
 #Material Colors
-===============
 
 Small library with some Material colors in SASS. 
 
